@@ -10,8 +10,6 @@ public class Watermark {
 	public static BufferedImage apply(BufferedImage b, String text, Font f){
 		Graphics2D g = b.createGraphics();
 		g.setFont(f);
-		
-		
 		g.setColor(Color.BLACK);
 		
 		FontMetrics m = g.getFontMetrics();
